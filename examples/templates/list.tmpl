@@ -1,0 +1,5 @@
+<ul>
+{{range $_, $fname := .Files}}
+<li><a href="/{{$fname}}">{{$fname}}</a></li>
+{{end}}
+</ul>
