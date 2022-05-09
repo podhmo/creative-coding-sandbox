@@ -2,10 +2,19 @@
   "name": "src",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
+   "scripts": {
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "private": true,
+  "license": "ISC",
+  "devDependencies": {
+    "@types/p5": "^1.4.2",
+    "parcel": "^2.5.0"
+  },
+  "dependencies": {
+    "p5": "^1.4.1"
+  }
 }
